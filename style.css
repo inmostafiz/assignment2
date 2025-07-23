@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* root */
+:root{
+    --hBlack: #000000;
+    --hOrange: #E95A08;
+    --pColor: rgba(0, 0, 0, 0.5);
+    --btnColor: #E95A08;
+    --fontHeader: "Noto Serif", serif;
+    --fontBody: "Inter", sans-serif;
+    --pfont: 1.3rem; 
+}
+/* Reusable Container */
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
