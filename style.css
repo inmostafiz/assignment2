@@ -143,5 +143,43 @@ img{
     cursor: pointer;
 }
 /* end main area> our plans */
-
-
+/* start flower store */
+.flower_store{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    gap: 2.5rem;
+}
+.trust_img{
+    width: 50%;
+    position: relative;
+}
+.trust_img img:first-child {
+    width: 100%;
+    height: 90%;
+}
+.badge {
+    position: absolute;
+    top: -100px;
+    right: -70px;
+    width: 200px;
+}
+.flower_plants{
+    width: 50%;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+.flower_plants h2{
+    font-family: var(--fontHeader);
+    color: var(--hBlack);
+    font-size: 3rem;
+}
+.flower_plants ul{
+    padding-left: 2rem;
+    color: var(--pColor);
+    font-size: var(--pfont);
+    font-family: var(--fontBody);
+}
+.flower_plants li{
+    margin: 20px 0;
+}
