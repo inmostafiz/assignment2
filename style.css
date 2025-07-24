@@ -161,8 +161,8 @@ img{
 .badge {
     position: absolute;
     top: -100px;
-    right: -70px;
-    width: 200px;
+    right: -80px;
+    width: 210px;
 }
 .flower_plants{
     width: 50%;
@@ -246,16 +246,88 @@ img{
     font-size: 1.3rem;
 }
 .text_overlay h3 {
-  font-size: 1.6rem;
-  font-family: var(--fontHeader);
-  margin-bottom: 0.7rem;
+    font-size: 1.6rem;
+    font-family: var(--fontHeader);
+    margin-bottom: 0.7rem;
 }
 
 .text_overlay a {
-  color: #fff;
-  font-weight: bold;
-  text-decoration: underline;
-  font-size: 1rem;
-  font-family: var(--fontBody);
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1rem;
+    font-family: var(--fontBody);
 }
+/* end latest deal section */
+/* start newslatter section */
+.bg{
+    background: url(img/news-letter-bg.png) center center/cover no-repeat;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 4rem;
+}
+.newslatter{
+    width: 100%;
+    text-align: center;
+}
+.newslatter h3{
+    font-family: var(--fontHeader);
+    font-size: 3rem;
+    color: #Fff;
+}
+.newslatter input{
+    width: 40%;
+    padding: 12px 20px;
+    margin-top: 1rem;
+    font-size: 16px;
+    border: none;
+}
+.newslatter .btn{
+    background-color: #E95A08;
+    width: 10%;
+    padding: 14px 22px;
+    border: none;
+    font-family: var(--fontBody);
+    color: #Fff;
+    cursor: pointer;
+}
+/* end newslatter area */
+/* start footer area */
+.footer_area{
+    display: flex;
+    justify-content: space-between;
+    height: 340px;
+    margin-top: 4rem;
+}
+.area1 p{
+    font-family: var(--fontBody);
+    font-size: var(--pfont);
+    color: var(--pColor);
+    padding-top: 1rem;
+}
+.area2 ul li{
+    list-style: none;
+    line-height: 2.5;
+    font-family: var(--fontBody);
+    font-size: var(--pfont);
+    color: var(--pColor);
+}
+.area3 ul li{
+    list-style: none;
+    line-height: 2.5;
+    font-family: var(--fontBody);
+    font-size: var(--pfont);
+    color: var(--pColor);
+}
+.area4 img{
+    margin-right: 1.5rem;
+}
+/* end footer area */
+
+
+
 
