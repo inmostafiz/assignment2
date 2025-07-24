@@ -217,7 +217,7 @@ img{
     overflow: hidden;
     color: white;
     border-radius: 1rem;
-    height: 210px;
+    height: 210px; 
 }
 .card_flower img{
     width: 100%;
@@ -327,7 +327,10 @@ img{
     margin-right: 1.5rem;
 }
 /* end footer area */
+/* Start Media Query 575px Mobile Device */
 
-
+@media (max-width: 576px) {
+    
+}
 
 
