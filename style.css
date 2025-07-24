@@ -223,9 +223,8 @@ img{
     width: 100%;
     height: auto;
 }
-.large {
+.large{
     height: 98%;
-    min-height: 320px;
 }
 .text_overlay{
     position: absolute;
@@ -294,13 +293,15 @@ img{
     font-family: var(--fontBody);
     color: #Fff;
     cursor: pointer;
+    font-size: 14px;
+    margin-left: -10px;
 }
 /* end newslatter area */
 /* start footer area */
 .footer_area{
     display: flex;
     justify-content: space-between;
-    height: 340px;
+    height: 300px;
     margin-top: 4rem;
 }
 .area1 p{
@@ -330,7 +331,170 @@ img{
 /* Start Media Query 575px Mobile Device */
 
 @media (max-width: 576px) {
-    
+    .container{
+        margin: 0 20px;
+    }
+    /* Navbar 576px Responsive */
+    .right_text ul li:nth-child(1) a{
+    display: none;
+}
+    .right_text ul li:nth-child(2) a{
+    display: none;
+}
+    .right_text ul li:nth-child(3) a{
+    display: none;
+}
+    /* End Navbar 576px Responsive */
+    /* Start Banner Section */
+    .banner{
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+    .banner_left{
+        padding: 20px;
+        margin-top: 1.2rem;
+    }
+    .banner_left h1{
+        font-size: 1.8rem;
+    }
+    .banner_left span{
+        font-size: 1.8rem;
+    }
+    .banner_left p{
+        font-size: 1rem;
+        padding: 13px 0 10px 0;
+    }
+    /* End Banner Section */
+    /* Start Our Plants Section */
+    .our_plans{
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .our_plans h2{
+        font-size: 1.8rem;
+    }
+    .our_plans p{
+        font-size: 1.2rem;
+        padding: 1.5rem;
+    }
+    .our_plans p br{
+        display: none;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .item_card p{
+        font-size: 1.2rem;
+    }
+    .item_card span{
+        font-size: 1.2rem;
+    }
+    .btn1 .btn{
+        width: 100%;
+    }
+    /* End Our Plants Section */
+    /* Start Flower Plants */
+    .flower_store{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .trust_img{
+        width: 100%;
+    }
+    .badge{
+        display: none;
+    }
+    .flower_plants{
+        width: 100%;
+        padding: 0;
+    }
+    .flower_plants h2{
+        font-size: 1.8rem;
+        margin-top: -70px;
+    }
+    .flower_plants h2 br{
+        display: none;
+    }
+    .flower_plants ul li{
+        font-size: 1.2rem;
+    }
+    /* End Flower Plants */
+    /* Start Latest Deals Section */
+    .deal_text{
+        margin-top: 4rem;
+        text-align: center;
+    }
+    .deal_text h2{
+        font-size: 1.8rem;
+    }
+    .deal_text p{
+        font-size: 1.2rem;
+        padding: 0 1rem;
+    }
+    .deal_text p br{
+        display: none;
+    }
+    .grid_sec{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-top: 5rem;
+    }
+    .card_flower{
+        height: 190px;
+    }
+    /* End of Latest Deals Sections */
+    /* Start NewsLatter Section  */
+    .bg{
+        background: url(img/news-letter-bg.png) center center/cover no-repeat;
+        height: 250px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 4rem;
+    }
+    .newslatter{
+        width: 100%;
+    }
+    .newslatter h3{
+        font-family: var(--fontHeader);
+        font-size: 1.8rem;
+        color: #Fff;
+    }
+    .newslatter input{
+        width: 300px;
+        padding: 12px 20px;
+        margin-top: 1rem;
+        font-size: 14px;
+        border: none;
+    }
+    .newslatter .btn{
+        width: 100px;
+        padding: 12px 20px;
+        margin-left: -10px;
+        font-size: 14px;
+    }
+    /* End of NewsLatter Section */
+    /* Start Footer Area */
+    .footer_area{
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+    .area1 p{
+        width: 70%;
+        margin-bottom: 1.2rem;
+    }
+    .area1 p br{
+        display: none;
+    }
+    .imgsec{
+        height: 70px;
+    }
+    /* End of Footer Section */
 }
 
 
